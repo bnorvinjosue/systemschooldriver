@@ -1,0 +1,1 @@
+export const queryQuestion =`FOR q IN questions FILTER q.type == @type RETURN q`;
